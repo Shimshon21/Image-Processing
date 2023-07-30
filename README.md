@@ -1,2 +1,2 @@
-# image processing
- Image processing course codes wrtitten in phyton
+# Image Processing
+ Image processing course codes written in phyton
