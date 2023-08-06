@@ -1,6 +1,6 @@
 import cv2
 
-def sharpen_image(grey_image):
+def sharpening_image(grey_image):
     # Define parameters for Laplacian filter
     ddepth = cv2.CV_16S
     kernel_size = 3
@@ -31,4 +31,4 @@ if __name__ == '__main__':
     input_image = cv2.imread("moon.JPG", 0)
 
     # Call the sharpen_image function with the input image
-    sharpen_image(input_image)
+    sharpening_image(input_image)
